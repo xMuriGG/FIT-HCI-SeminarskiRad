@@ -65,6 +65,7 @@ public class LoginFragment extends Fragment {
                         LogiraniKorisnik logiraniKorisnik=Sesija.getLogiraniKorisnik();
                         if (logiraniKorisnik!=null)
                         {
+
                             Sesija.setMojProfilData();
 
 //                            ((CZEMainActivity)getActivity()).selectItem(1);

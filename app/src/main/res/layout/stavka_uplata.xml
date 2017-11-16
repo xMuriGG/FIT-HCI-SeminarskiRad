@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_success_light_selector"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        >
+
+        <TextView
+            android:id="@+id/lvSvrha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Uplata druge rate" />
+
+        <TextView
+            android:id="@+id/lvDatum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lvSvrha"
+            android:textSize="10sp"
+            android:text="12.12.2015" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lvIznos"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:text="300 KM"
+        android:textSize="20dp" />
+</RelativeLayout>

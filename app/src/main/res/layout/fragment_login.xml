@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muri.fit_hci_3086_seminarskirad.pages.autentifikacija.LoginFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/txt_kIme"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_user"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/txt_lozinka"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/hint_pass"
+
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/btn_logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_test"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

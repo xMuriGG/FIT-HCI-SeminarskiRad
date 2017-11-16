@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tvGrupaNaziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Polaznici 01.01.2017" />
+
+    <TextView
+        android:id="@+id/tvKursNaziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGrupaNaziv"
+        android:layout_alignParentRight="true"
+        android:text="A1.1" />
+
+    <TextView
+        android:id="@+id/tvKursTipNaziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvGrupaNaziv"
+        android:layout_alignParentLeft="true"
+        android:text="Engleski jezik" />
+
+    <TextView
+        android:id="@+id/tvImePrezimeZaposlenika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvKursNaziv"
+        android:text="Ime Prezime" />
+    <TextView
+        android:id="@+id/tvUplaceno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvKursNaziv"
+        android:layout_alignParentRight="true"
+        android:text="Cijena" />
+    <RatingBar
+        android:id="@+id/rbOcjena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="5"
+        android:max="5"
+        android:stepSize="1.0"
+        android:isIndicator="true"
+        android:layout_below="@+id/tvImePrezimeZaposlenika"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

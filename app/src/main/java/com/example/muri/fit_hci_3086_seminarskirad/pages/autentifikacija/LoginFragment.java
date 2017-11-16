@@ -47,7 +47,6 @@ public class LoginFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-
                 String korisnickoIme=((EditText)view.findViewById(R.id.txt_kIme)).getText().toString();
                 String lozinka=((EditText)view.findViewById(R.id.txt_lozinka)).getText().toString();
 
